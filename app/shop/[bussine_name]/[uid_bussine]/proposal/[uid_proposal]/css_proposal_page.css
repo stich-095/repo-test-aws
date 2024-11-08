@@ -1,0 +1,96 @@
+
+
+
+.cont_nav_view_proposal_request_price {
+    width: 70vw;
+    background-color: aliceblue;
+    justify-content: end;
+    display: flex;
+}
+
+#cont_amount_proposal_view {
+    width: 70vw;
+    height: 40vh;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cont_preview_proposal_view {
+    display: flex;
+    width: 70vw;
+    height: 90vh;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    position: relative;
+    padding: 1vh 2vw;
+}
+
+#cont_send_proposal {
+    display: flex;
+    width: 70vw;
+    height: 40vh;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cont_product_for_view_proposal_price {
+    width: 74vw;
+}
+
+#button_send_proposal_request_price {
+    background-color: #2b61e5;
+    color: white;
+    padding: 1vh 2vw;
+    border-radius: 5px;
+    position: sticky;
+    bottom: 1vh;
+}
+
+.preview_nav {
+    width: 95vw;
+}
+
+@media screen and (max-width: 768px) {
+    .cont_view_proposal_request_price {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.69);
+        position: fixed;
+        top: 0px;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cont_nav_view_proposal_request_price {
+        width: 90vw;
+    }
+
+    #cont_amount_proposal_view {
+        width: 90vw;
+    }
+
+    #cont_preview_proposal_view {
+        width: 95vw;
+    }
+
+    #cont_send_proposal {
+        width: 90vw;
+    }
+
+    #cont_product_for_view_proposal_price {
+        width: 90vw;
+    }
+
+    #button_send_proposal_request_price {
+        bottom: 6vh;
+    }
+}

@@ -1,0 +1,26 @@
+
+
+
+#cont_all_form_dataclient_create_secure_buy{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#cont_form_dataclient_create_secure_buy{
+    width: 50vw;
+    background-color: white;
+    height: 60vh;
+    margin-bottom: 20vh;
+    padding: 1vh 5vw;
+}
+
+.input_data_client_secure_buy{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+}

@@ -1,0 +1,206 @@
+
+#cont_view_open_car {
+    width: 40%;
+    min-height: 100vh;
+    padding: 5vh 2vw;
+     
+}
+
+
+#back_open_car {
+    position: sticky;
+    bottom: 10;
+    bottom: 0;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    padding: 1vh 5vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+
+
+#cont_product_info {
+    width: 60%;
+    padding-top: 5vh;
+    margin-bottom: 15vh;
+    
+}
+
+.navigator_open_car {
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    background-color: white;
+}
+
+
+.first_step_open_car {
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    padding: 2vh 5vw;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.second_step_open_car {
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    padding: 2vh 5vw;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.third_step_open_car {
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    padding: 2vh 5vw;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#cont_secure_buy_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cont_img_secure_buy_product{
+    width: 45%;
+}
+
+
+#only_when_buyer_want{
+    font-size: 15px;
+    margin-top: 2vh;
+}
+
+
+#title_secure_buy_product{
+    font-size: 25px;
+
+}
+
+
+
+#resume_info_secure_buy {
+    width: 55vw;
+    margin-bottom: 5vh;
+}
+
+#cont_titles_secure_buy{
+    
+    padding: 0vh 5vw;
+}
+#resume_info_secure_buy{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #back_open_car {
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        left: 0;
+        width: 100%;
+        height: 8vh;
+        padding: 1vh 5vw;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        
+    }
+
+
+    #cont_view_open_car {
+        display: none;
+    }
+    
+    
+    #cont_product_info {
+        width: 95%;
+        padding-top: 5vh;
+        margin-bottom: 15vh;
+        
+    }
+
+    .navigator_open_car {
+        width: 90vw;
+        
+    }
+    
+    .first_step_open_car {
+        width: 90vw;
+        height: 60vh;
+        
+    }
+    
+    .second_step_open_car {
+        width: 90vw;
+        height: 60vh;
+        
+    }
+    
+    .third_step_open_car {
+        width: 90vw;
+        height: 60vh;
+        
+    }
+
+    #cont_secure_buy_product {
+        display: flex;
+        flex-direction: column-reverse;
+
+        
+    }
+
+    #cont_img_secure_buy_product{
+        width: 90vw;
+    }
+
+    
+    #only_when_buyer_want{
+       display: none;
+        
+    }
+
+    #resume_info_secure_buy {
+       display: none;
+    }
+
+    
+    #title_secure_buy_product{
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    
+    #resume_info_secure_buy {
+        width: unset;
+        
+    }
+
+
+
+   
+    
+}

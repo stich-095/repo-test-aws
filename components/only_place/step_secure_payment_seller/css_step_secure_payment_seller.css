@@ -1,0 +1,26 @@
+.cont_proces_client{
+    background-color: white;
+    margin-top: 3vh;
+    padding: 1vh 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#all_content_step_phone{
+    display: none;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    #all_content_step_pc{
+        display: none;
+    }
+    #all_content_step_phone{
+        display: flex;
+        
+    }
+    
+}

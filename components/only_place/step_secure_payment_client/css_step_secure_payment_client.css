@@ -1,0 +1,56 @@
+.cont_proces_client{
+    background-color: white;
+    margin-top: 3vh;
+    padding: 1vh 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#step_secure_buy_phone_client{
+    display: none;
+}
+
+#icon_arrow_account_bank{
+    color: "#0062e1"
+}
+
+
+.box_account{
+    width: 40vw;
+    height: 30vh;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    padding: 0vh 2vw;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 768px){
+    .cont_proces_client{
+        flex-direction: column;
+    }
+
+    #step_secure_buy_pc_client{
+        display: none;
+    }
+
+    #step_secure_buy_phone_client{
+        display: flex;
+    }
+
+    #icon_arrow_account_bank{
+        color: "#0062e1"
+    }
+
+    .box_account{
+        width: 85vw;
+        
+    }
+    
+    
+    
+}

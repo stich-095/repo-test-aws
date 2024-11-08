@@ -1,0 +1,70 @@
+/* Contenedor principal con display flex */
+.car-info-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los elementos */
+    width: 100%;
+    padding: 2vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    
+}
+
+/* Estilo de cada item */
+.car-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+/* Contenedor de iconos */
+.car-info-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Asegura que todos los íconos tengan el mismo espacio vertical */
+    margin-bottom: 10px;
+}
+
+/* Estilo para los títulos */
+.car-info-title {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los valores */
+.car-info-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/* Ajuste para los iconos */
+.car-info-icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.equipamiento{
+    padding: 1vh 2vw;
+    border: 1px solid #ccc;
+}
+
+
+@media screen and (max-width: 768px) {
+    .car-info-container {
+        gap: unset;
+        padding: unset; 
+        
+    
+        
+    }
+    
+}

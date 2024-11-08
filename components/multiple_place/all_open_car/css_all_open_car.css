@@ -1,0 +1,113 @@
+.image-gallery {
+    display: flex;
+    position: relative;
+    width: fit-content;
+  }
+
+.all_content_all_product{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 1vh 2vw;
+  margin-top: 3vw;
+  background-color: white;
+  min-height: 20vh;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+#cont_all_generic_items_all_product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3vw;
+  }
+
+  .data_for_apointment{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-image{
+    width: 15vw;
+  }
+  
+  
+  .buttons {
+    position: absolute;
+    top: 50%;
+  }
+
+  .buttons button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+.data_for_apointment{
+  display: flex;
+  flex-direction: column;
+}
+  
+  .main-image{
+    width: 15vw;
+  }
+  
+  
+  .buttons {
+    position: absolute;
+    top: 50%;
+  }
+
+  .buttons button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.cont_genric_items_all_product{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .cont_genric_items_all_product {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .data_for_appointment{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  #cars_for_see{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+  }
+
+  
+
+  
+#cont_all_generic_items_all_product {
+  display: flex;
+  flex-direction: column;
+  
+}
+  
+  
+}

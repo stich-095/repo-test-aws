@@ -1,0 +1,17 @@
+
+
+#select_input{
+    width: 35vw;
+    text-align: center;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+
+
+#select_input:focus {
+    border-color: #007BFF; /* Cambiar el borde a azul cuando se selecciona */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Agregar un sombreado suave */
+    outline: none; /* Asegurarse de que no haya outline */
+
+  }

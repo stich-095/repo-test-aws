@@ -1,0 +1,14 @@
+
+
+#title_faq {
+    font-size: 40px;
+    color: #6495ed;
+}
+
+
+@media screen and (max-width: 768px) {
+    #title_faq {
+        display: none;
+    }
+    
+}

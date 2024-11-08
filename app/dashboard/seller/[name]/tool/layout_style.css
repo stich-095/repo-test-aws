@@ -1,0 +1,175 @@
+
+
+#dashboard_left_component {
+    width: 21vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2vh 1vw;
+}
+
+
+#cont_rigth_dashboard {
+    width: 70vw;
+    
+}
+
+#cont_tool {
+    width: 79vw;
+    height: auto ;
+    max-width: 1200px;
+    margin-left: 21vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link_dashboard {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link_dashboard.active {
+    background-color:#80808099;
+    padding-right: 7vw;
+    padding-top:0.3vh ; 
+    padding-bottom:0.3vh ; 
+    border-radius: 5px;
+    
+  }
+
+
+  #all_content_dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+  }
+
+  
+  #header_phone_dashboard {
+    display: none;
+  }
+
+  #menu_phone_options_dashboard{
+    display: none;
+  }
+  
+
+  #cont_link_for_dashboard {
+    background-color: black;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    padding: 2vh 1vw;
+    width: 21vw;
+  }
+
+  
+  #menu_phone_background{
+    display: none;
+  }
+
+
+@media screen and (max-width: 768px) {
+
+
+    #dashboard_left_component {
+        display: flex;
+        flex-direction: column;
+        background-color:aliceblue;
+        width: 65vw;
+        left: 0;
+        height: 100vh;
+        position: fixed;
+        top: 11.5vh;
+        z-index: 1;
+    }
+
+    #cont_rigth_dashboard {
+        width: 95vw;
+        
+    }
+    
+    #cont_tool {
+        width: 95vw;
+        margin-left: unset;
+        margin-top: 13.5vh;
+        
+        
+    }
+
+    #all_content_dashboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    #header_phone_dashboard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 11.5vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        
+        
+    }
+
+    #menu_phone_options_dashboard{
+        display: flex;
+        flex-direction: column;
+        background-color:aliceblue;
+        width: 65vw;
+        left: 0;
+        height: 100vh;
+        position: fixed;
+        top: 11.5vh;
+        z-index: 1;
+    }
+
+    #menu_phone_background{
+        width: 35vw;
+        height: 100vh;
+        left: 65vw;
+        position: fixed;
+        top: 11.5vh;
+        background-color: #80808099;
+    }
+
+    #cont_link_for_dashboard {
+        display: flex;
+        flex-direction: column;
+        background-color:#96d7ff;
+        width: 65vw;
+        left: 0;
+        height: 100vh;
+        position: fixed;
+        top: 11.5vh;
+        z-index: 1;
+        border-radius: 0px;
+      }
+
+    .link_dashboard.active {
+        background-color: #000000;
+        padding-right: 35vw;
+        padding-top: 0.8vh;
+        padding-bottom: 0.8vh;
+        border-radius: 5px;
+    }
+
+    .cont_link_dashboard{
+        margin-top: 2vh;
+    
+    }
+    
+
+}

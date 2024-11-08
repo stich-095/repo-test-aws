@@ -1,0 +1,21 @@
+#cont_table_history_for_entity {
+    width: 69vw;
+    margin-top: 5vh;
+
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+   
+    #cont_table_history_for_entity {
+        width: 90vw;
+        overflow-x: auto;
+    }
+    
+    
+}

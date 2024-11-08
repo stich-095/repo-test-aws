@@ -1,0 +1,74 @@
+.image_gallery_all_request_price {
+    display: flex;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .main_image{
+    width: 15vw; 
+  }
+  
+  
+  .buttons_all_request_price {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttons_all_request_price button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.cont_genric_items_all_request_price{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_image_all_request_price{
+  width: 15vw;
+}
+
+.cont_all_request_price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1vh 2vw;
+  margin-top: 5vh;
+  background-color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .cont_all_request_price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: unset;
+    margin-top: 5vh;
+    background-color: white;
+  }
+
+  .main_image_all_request_price{
+    width: 100%;
+
+  }
+
+  .image_all_request_price{
+    border-radius: 10px 10px 0 0;
+  }
+
+  .open_car_for_request_price{
+    display: none;
+    
+  }	
+}

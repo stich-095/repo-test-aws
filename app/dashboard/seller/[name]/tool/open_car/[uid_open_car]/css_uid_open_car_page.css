@@ -1,0 +1,52 @@
+
+
+#cont_all_info_open_car {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3vw;
+    padding: 5vh 2vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+
+
+#cont_info_contact_open_car {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3vw;
+    padding: 5vh 2vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .item_open_car_info {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    
+    #cont_all_info_open_car {
+        flex-direction: column;
+        
+    }
+
+    #cont_info_contact_open_car {
+        flex-direction: column;
+        
+    }
+    
+
+    
+}

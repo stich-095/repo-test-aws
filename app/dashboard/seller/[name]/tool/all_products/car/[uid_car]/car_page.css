@@ -1,0 +1,26 @@
+#input_type_text_brand{
+    width: 35vw;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+
+
+#button_change_post{
+    position: fixed;
+    bottom: 0;
+    left: 21vw;
+    height: 10vh;
+    width: 79vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    #button_change_post{
+        left: unset;
+    }
+
+}
